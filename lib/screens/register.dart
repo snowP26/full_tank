@@ -57,7 +57,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300], // background color of the page
+      backgroundColor: Color.fromRGBO(193, 249, 255, 1), // background color of the page
       body: Container(
         padding: const EdgeInsets.all(30), // padding for the container
         child: ListView(
@@ -200,7 +200,7 @@ class SignUpButton extends StatelessWidget {
         alignment: Alignment.center, // center alignment of child widget
         height: 55, // sets height of container
         decoration: BoxDecoration(
-          color: Colors.blue, // sets the background color of container to blue 
+          color: Color.fromARGB(255, 18, 109, 137), // sets the background color of container to blue 
           borderRadius: BorderRadius.circular(6.0), // rounds the corner of the container
           boxShadow: [
             BoxShadow(
@@ -257,7 +257,7 @@ class Socials extends StatelessWidget {
                   ],
                 ),
                 child: SvgPicture.asset(
-                  'assets/images/google.svg', // path to the google svg icon 
+                  'lib/assets/google.svg', // path to the google svg icon 
                   height: 30, // sets the height of the icon
                 ),
               ),
@@ -281,7 +281,7 @@ class Socials extends StatelessWidget {
                   ],
                 ),
                 child: SvgPicture.asset(
-                  'assets/images/facebook.svg', // path to the facebook svg icon 
+                  'lib/assets/facebook.svg', // path to the facebook svg icon 
                   height: 30, // sets the height of the icon
                 ),
               ),
@@ -305,7 +305,7 @@ class Socials extends StatelessWidget {
                   ],
                 ),
                 child: SvgPicture.asset(
-                  'assets/images/instagram.svg', // path to the instagram svg icon 
+                  'lib/assets/instagram.svg', // path to the instagram svg icon 
                   height: 30, // sets the height of the icon
                 ),
               ),
@@ -329,7 +329,7 @@ class Socials extends StatelessWidget {
                   ],
                 ),
                 child: SvgPicture.asset(
-                  'assets/images/twitter.svg', // path to the twitter svg icon 
+                  'lib/assets/twitter.svg', // path to the twitter svg icon 
                   height: 30, // sets the height of the icon
                 ),
               ),

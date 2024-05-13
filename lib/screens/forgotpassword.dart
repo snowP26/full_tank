@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.grey[300],
+        backgroundColor: Color.fromRGBO(193, 249, 255, 1),
         body: DefaultTextStyle(
           style: textStyle,
           child: Stack(
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.grey[300],
+                      color: Color.fromRGBO(193, 249, 255, 1),
                       borderRadius: BorderRadius.circular(5),
                     ),
                     child: const Text('Back'),
@@ -103,7 +103,7 @@ class MyApp extends StatelessWidget {
                     // Handle button tap
                   },
                   style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(const Color.fromARGB(255, 33, 71, 92)),
+                    backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 18, 109, 137)),
                     foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
                     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                       RoundedRectangleBorder(
