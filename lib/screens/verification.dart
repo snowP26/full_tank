@@ -25,7 +25,7 @@ class OTPScreen extends StatelessWidget {
 
       home: Scaffold(
 
-      backgroundColor: Colors.grey[300], // Set background color to a slightly darker shade of gray
+      backgroundColor: Color.fromRGBO(193, 249, 255, 1), // Set background color to a slightly darker shade of gray
       body: Container(
         padding: const EdgeInsets.all(8.0),
         child: Column(
